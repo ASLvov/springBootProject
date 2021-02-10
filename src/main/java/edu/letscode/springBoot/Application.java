@@ -1,4 +1,4 @@
-package edu.letscode.springBoot.webController;
+package edu.letscode.springBoot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

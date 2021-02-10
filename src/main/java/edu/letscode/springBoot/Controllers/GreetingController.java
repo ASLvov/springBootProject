@@ -1,4 +1,4 @@
-package edu.letscode.springBoot.webController;
+package edu.letscode.springBoot.Controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
