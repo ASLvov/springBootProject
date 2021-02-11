@@ -18,11 +18,11 @@ public class MainController {
 
     @PostMapping(path = "/add")
     @ResponseBody
-    public String addNewUser(@RequestParam String name,
-                             @RequestParam String email) {
+    public String addNewUser(@RequestParam String userName/*,
+                            @RequestParam String email*/) {
         User n = new User();
-        n.setName(name);
-        n.setEmail(email);
+        n.setUserName(userName);
+//        n.setEmail(email);
         userRepository.save(n);
         return "Saved";
     }
